@@ -1,4 +1,12 @@
 /* General Theme Colors */
+hr {
+    width: 50%;
+    margin: 20px auto;
+    height: 5px;
+    background-color: white;
+    border-radius: 10px
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -92,13 +100,15 @@ body {
     position: relative;
     text-align: center;
     color: #fff;
-    padding: 150px 20px; /* Keep padding to make the header taller */
-    min-height: 90vh;
+    padding: 150px 20px;
+    /* Keep padding to make the header taller */
+    min-height: 95vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     background-color: var(--background);
-    overflow: hidden; /* Prevents content from spilling over the video */
+    overflow: hidden;
+    /* Prevents content from spilling over the video */
 }
 
 /* Video Background Styles */
@@ -107,15 +117,18 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%; /* Ensures the video fills the header area */
+    height: 100%;
+    /* Ensures the video fills the header area */
     object-fit: cover;
-    z-index: 0; /* Keeps the video behind the content */
+    z-index: 0;
+    /* Keeps the video behind the content */
 }
 
 /* Ensure the content is on top of the video */
 .header .container {
     position: relative;
-    z-index: 1; /* Keeps the content above the video */
+    z-index: 1;
+    /* Keeps the content above the video */
 }
 
 /* Optional: Add an overlay for better contrast */
@@ -126,7 +139,8 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.7);  /* Increase opacity to make it darker */
+    background: rgba(0, 0, 0, 0.7);
+    /* Increase opacity to make it darker */
     z-index: 0;
 }
 
@@ -154,8 +168,11 @@ body {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    position: relative; /* Ensures this section doesn't get overlapped by the video */
-    z-index: 1; /* Ensures the content is not hidden behind the video */
+    position: relative;
+    min-height: 95vh;
+    /* Ensures this section doesn't get overlapped by the video */
+    z-index: 1;
+    /* Ensures the content is not hidden behind the video */
 }
 
 .why-choose-us h2 {
@@ -184,17 +201,13 @@ body {
     }
 }
 
-
-
-
-
-
 /* Features Section */
 .features {
-    padding: 50px 20px;
+    padding: 110px 20px;
     background-color: var(--background);
     color: var(--text);
     text-align: center;
+    min-height: 110vh;
 }
 
 .feature-item h3 {
@@ -235,12 +248,21 @@ body {
     margin: 10px 0 5px;
     color: var(--primary);
 }
+/* Price List */
+.pricing {
+    padding: 250px 20px; /* Adds padding to the top, bottom, left, and right */
+    color: var(--text); /* Optional: Define a text color */
+}
+
+
+
 
 /* Testimonial Section Styles */
 .testimonials {
     background-color: #f4f5f7;
-    padding: 50px 20px;
+    padding: 80px 20px;
     color: var(--text);
+    min-height: 110vh;
 }
 
 .testimonials h2 {
@@ -337,7 +359,19 @@ body {
     height: 50px;
 }
 
+.pim-icon img {
+    width: 45px;
+    /* Larger LinkedIn icon */
+    height: 45px;
+}
+
 .social-icon img {
     max-width: 100%;
     height: auto;
+}
+
+
+/* plans page */
+.pricingp {
+    padding: 40px 0;
 }
