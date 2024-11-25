@@ -100,9 +100,9 @@ body {
     position: relative;
     text-align: center;
     color: #fff;
-    padding: 150px 20px;
+    padding: 10px 20px;
     /* Keep padding to make the header taller */
-    min-height: 95vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
