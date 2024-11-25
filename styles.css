@@ -308,8 +308,14 @@ body {
 }
 
 @media (max-width: 768px) {
-    .testimonial-card {
-        margin-bottom: 20px;
+    .background-video video {
+        display: none;
+    }
+
+    .background-video {
+        background-image: url('vdo/bg-image.jpg');
+        background-size: cover;
+        background-position: center;
     }
 }
 
