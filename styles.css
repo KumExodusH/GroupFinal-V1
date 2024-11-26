@@ -337,6 +337,7 @@ body {
     padding: 110px 20px; /* Similar to features section spacing */
     color: var(--text); /* Text color */
     text-align: center; /* Center align content */
+    min-height: 50vh;
 }
 
 .more-products h2 {
