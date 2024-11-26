@@ -231,7 +231,6 @@ body {
     background-color: #fff;
     color: var(--text);
     margin-bottom: 30px;
-    /* Adjust this value for more or less spacing */
 }
 
 .team h2 {
@@ -249,11 +248,25 @@ body {
     margin: 10px 0 5px;
     color: var(--primary);
 }
-/* Price List */
-.pricing {
-    padding: 250px 20px; /* Adds padding to the top, bottom, left, and right */
-    color: var(--text); /* Optional: Define a text color */
+
+/* GitHub Button */
+.team .btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
 }
+
+.team .btn:hover {
+    background-color: #0056b3;
+    color: #fff;
+}
+
 
 
 
@@ -317,6 +330,34 @@ body {
         background-size: cover;
         background-position: center;
     }
+}
+
+/* More Products Section */
+.more-products {
+    padding: 110px 20px; /* Similar to features section spacing */
+    color: var(--text); /* Text color */
+    text-align: center; /* Center align content */
+}
+
+.more-products h2 {
+    color: var(--primary); /* Heading color matches the theme */
+}
+
+.more-products .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.more-products .btn:hover {
+    background-color: #0056b3;
+    color: #fff;
 }
 
 
